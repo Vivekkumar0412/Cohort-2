@@ -27,6 +27,7 @@ function Count() {
   return (
     <>
       <CountRender />
+      <EvenRender/>
       <Buttons />
     </>
   );
@@ -40,7 +41,15 @@ function CountRender() {
     </>
   );
 }
-
+function EvenRender(){
+  const count = useRecoilValue(countAtom);
+  console.log("even")
+  if(count % 2== 0){
+    return(
+      <h1>Event count</h1>
+    )
+  }
+}
 function Buttons() {
   console.log("bitioolkjkl")
   // let count = useContext(testContext)
