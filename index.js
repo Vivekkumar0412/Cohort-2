@@ -13,7 +13,7 @@ app.get("/notification",(req,res)=>{
     try {
         res.status(200).json({data : data})
     } catch (error) {
-        res.status(400).json({msg : "some error occured at backedn"})
+        res.status(400).json({msg : "some error occured at backend"})
     }
 });
 
