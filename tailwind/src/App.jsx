@@ -54,6 +54,18 @@ function App() {
         <div className="bg-red-600 rounded">DIV 2</div>
         <div className="bg-purple-500 rounded-full text-white text-lg">DIV 3</div>
       </div>
+
+
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 text-center">
+        <div className="bg-yellow-400 border-4  m-2 border-red-600">COL 1</div>
+        <div className="bg-indigo-400 border-4  m-2 border-green-600">COL 2</div>
+        <div className="bg-pink-400 border-4  m-2 border-blue-600">COL 3</div>
+        <div className="bg-cyan-400 border-4  m-2 border-black-600">COL 4</div>
+      </div>
+
+      <div>
+        <div></div>
+      </div>
     </>
   );
 }
