@@ -16,7 +16,6 @@ function App() {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
         <AmountCard title={"Vivek"} amount={"590000"} order={"55"} isBlue= {true} />
         <AmountCard title={"Singh"} amount={"798798"} order={"55"}  />
-        <AmountCard title={"Singh"} amount={"798798"} order={"55"}  />
         <AmountCard title={"Rajput"} amount={"897879"} order={"55"}  />
       </div>
       <Footer/>
