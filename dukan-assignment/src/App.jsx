@@ -18,7 +18,6 @@ function App() {
         <AmountCard title={"Singh"} amount={"798798"} order={"55"}  />
         <AmountCard title={"Singh"} amount={"798798"} order={"55"}  />
         <AmountCard title={"Singh"} amount={"798798"} order={"55"}  />
-        <AmountCard title={"Singh"} amount={"798798"} order={"55"}  />
         <AmountCard title={"Rajput"} amount={"897879"} order={"55"}  />
       </div>
       <Footer/>
